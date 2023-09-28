@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Domain Name For Sale</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 100px;
+    }
+    h1 {
+      color: #333;
+    }
+    p {
+      color: #666;
+      font-size: 18px;
+      margin-bottom: 40px;
+    }
+    .button {
+      padding: 10px 20px;
+      background-color: #1408f9;
+      color: white;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+    .button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Domain Name For Sale</h1>
+  <p>We are selling the domain name - <strong><span id="domainName"></span></strong></p>
+  <p>If you are interested in purchasing this domain, please contact us.</p>
+  <a href="mailto:sale@58name.com" class="button">Contact Us</a>
+
+  <script>
+    // 获取当前页面的域名
+    var domain = window.location.hostname;
+
+    // 在页面中展示域名
+    document.getElementById("domainName").textContent = domain;
+  </script>
+</body>
+</html>
