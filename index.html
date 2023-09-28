@@ -11,11 +11,15 @@
   <a href="mailto:sale@hi.domains" class="button">Contact Us</a>
 
   <script>
-    // 获取当前页面的域名
-    var domain = window.location.hostname;
+ // 获取当前页面的域名
+var domain = window.location.hostname;
 
-    // 在页面中展示域名
-    document.getElementById("domainName").textContent = domain;
+// 将第一个字母大写
+var capitalizedDomain = domain.charAt(0).toUpperCase() + domain.slice(1);
+
+// 在页面中展示域名
+document.getElementById("domainName").textContent = capitalizedDomain;
+
   </script>
 
 </body>
