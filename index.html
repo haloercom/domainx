@@ -3,24 +3,25 @@
 <head>
   <title>Domain Name For Sale</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
 </head>
 <body>
-  <h1><strong><span id="domainName"></span></strong></h1>
-  <p>We are selling the domain name</p>
-  <p>If you are interested in purchasing this domain, please contact us.</p>
+  <h1>Domain Name For Sale</h1>
+  <p>We are selling the domain name </p>
+  <p>If you are interested in purchasing this domain, please contact us:</p>
+  <hr>
+  <br>
+  <br>
   <a href="mailto:sale@hi.domains" class="button">Contact Us</a>
+  <br>
+  <br>
+  <br>
+  <div class="icon-container">
+  <h2><a href="mailto:sale@hi.domains" class="icon icon-email"><i class="fas fa-envelope"></i></a>
+  <a href="https://twitter.com/HiDomains" class="icon icon-twitter"><i class="fab fa-twitter"></i></a></h2>
+  <!-- Add more icons for other social media platforms here -->
+  </div>
 
-  <script>
- // 获取当前页面的域名
-var domain = window.location.hostname;
-
-// 将第一个字母大写
-var capitalizedDomain = domain.charAt(0).toUpperCase() + domain.slice(1);
-
-// 在页面中展示域名
-document.getElementById("domainName").textContent = capitalizedDomain;
-
-  </script>
-
+ 
 </body>
 </html>
